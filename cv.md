@@ -3,9 +3,9 @@
 3. **HTML, CSS, Canva, Markdown**
 4. function checkEvenOrOdd(num) {
   if (num % 2 === 0) {
-    return "Чётное";
+    return;
   } else {
-    return "Нечётное";
+    return;
   }
 }
 console.log(checkEvenOrOdd(4)); //
