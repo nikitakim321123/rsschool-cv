@@ -1,16 +1,15 @@
 1. *Kim Nikita Vladimirovich*
 2. tel.: 8 (705) 300 06 02
 3. **HTML, CSS, Canva, Markdown**
-4. js
-function isPalindrome(str) {
-  const reversed = str.split('').reverse().join('');
-  return str === reversed;
+4. function checkEvenOrOdd(num) {
+  if (num % 2 === 0) {
+    return "Чётное";
+  } else {
+    return "Нечётное";
+  }
 }
-
-console.log(isPalindrome("level"));  // true
-console.log(isPalindrome("hello"));  // false
-console.log(isPalindrome("12321"));  // true
-
+console.log(checkEvenOrOdd(4)); //
+console.log(checkEvenOrOdd(7)); //
 5. I'm a sales manager and an athlete. I like to learn something new and understand the unknown. I am fond of cycling and music.
 6. I've been in sales for 5 years.
 
