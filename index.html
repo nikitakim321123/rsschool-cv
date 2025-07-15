@@ -22,7 +22,7 @@
     <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
     <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-    <li class="nav-item"><a href="#courses" class="courses">Courses</a></li>
+    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
     <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
     <li class="nav-item"><a href="#english " class="nav-link">English </a></li>
@@ -38,11 +38,19 @@
 
   <div class="container main-container">
 
-<section class="section" id="profile">
-  <h1 class="section-title">About Me</h1>
-  <p>Kim Nikita Vladimirovich</p>
-  <p>Manager</p>
-  <img src="assets/img/image.jpg" alt="my photo" width="200">
+<section class="section profile" id="profile">
+  <div class="profile-container">
+    <img src="assets/img/image.jpg" alt="My photo" class="profile-avatar">
+    <div class="profile-info">
+      <h1 class="profile-name">Kim Nikita Vladimirovich</h1>
+      <p class="profile-title">Frontend Developer</p>
+      <ul class="profile-contacts">
+        <li><a href="mailto:kimnikita2@gmail.com">kimnikita2@gmail.com</a></li>
+        <li><a href="tel:+77053000602">+7 705 300‑0602</a></li>
+        <li><a href="https://github.com/nikitakim321123" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 
@@ -74,6 +82,11 @@
         <p>function checkEvenOrOdd(num) { if (num % 2 === 0) { return; } else { return; } } console.log(checkEvenOrOdd(4)); // console.log(checkEvenOrOdd(7)); //</p>
     </section>
 
+    <section class="section" id="courses">
+      <h2 class="section-title">Courses</h2>
+      <p>RS School, Code-Basics</p>
+     </section>
+
     <section class="section" id="project">
       <h2>Project
         </h2>
@@ -103,7 +116,6 @@
 
   <footer class="footer">
 
-        <div class="container"></div>
 
   </footer>
 
